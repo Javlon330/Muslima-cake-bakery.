@@ -1,0 +1,60 @@
+/* navbar section  */
+.msl-navbar{
+    padding: 1rem 0;
+    background-color: #ffff;
+    background-size: cover;
+    background-image: url(../images/bg-1.jpg);
+
+}
+
+.msl-navbar .nav-item .nav-link{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.msl-phone{
+    display: block;
+    font-size: 19px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.msl-timetable{
+    display: block;
+    font-size: .9rem;
+    text-transform: none;
+    font-weight: normal;
+    text-align: center;
+}
+
+.msl-phone-area{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+.msl-navbar .nav-icon img{
+    opacity: 0.7;
+    transition: all 0.3s;
+    width: 30px
+    ;
+}
+
+.dropdown-menu-right{
+    right: 0;
+    left: auto;
+}
+
+*,::after,::before{
+    box-sizing: border-box;
+}
+
+.msl-navbar .nav-item .nav-link:hover{
+    color: rgba(0, 0, 0, 1);
+}
+
+.nav-icon{
+    margin-left: 1rem;
+}
